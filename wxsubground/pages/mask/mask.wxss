@@ -1,0 +1,44 @@
+/* 遮罩层 */
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.mask{
+ width:100%;
+height:100%;
+position:absolute;
+background-color:#000;
+z-index:9999;
+top:0;
+left:0;
+opacity:0.7;
+-moz-opacity: 0.7;
+filter: alpha(opacity=70);
+}
+.arrow{
+  width:64rpx;
+  height: 108rpx;
+  position: absolute;
+  right: 150rpx;
+  top:20rpx;
+}
+
+.cue{
+  width:320rpx;
+  height: 148rpx;
+  position: absolute;
+  right: 10rpx;
+  top:100rpx;
+}
+
+.makesure{
+   width:224rpx;
+  height: 94rpx;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-top:-47rpx;
+  margin-left:-112rpx;
+}

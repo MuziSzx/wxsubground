@@ -1,0 +1,8 @@
+<view class="mask hide{{showInfo?'show':''}}">
+  <image class='arrow' src='../images/arrow.png'></image>
+  <image class='cue' src='../images/cue.png'></image>
+  <image class='makesure' src='../images/makesure.png' bindtap='hideMask'></image>
+</view>
+<view class='page__hd'>
+  <view class='page__desc'>遮罩层，主要是一个简单的判断，加上css进行控制，从而实现页面遮罩</view>
+</view>

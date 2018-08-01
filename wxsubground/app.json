@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/mask/mask"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序组件",
+    "navigationBarTextStyle":"black"
+  }
+}

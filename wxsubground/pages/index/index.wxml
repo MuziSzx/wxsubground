@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">MuziUI</view>
+    <view class="page__desc">MuziUI 是一套基于weui所呈现出来的ui组件，想添加一些新的功能在这上面，当然现在也只是一点点积累，希望大家会喜欢。</view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="kind-list">
+        <view class="kind-list__item" bindtap='mask'>
+          <view  class="weui-flex kind-list__item-hd">
+            <view class="weui-flex__item" >遮罩层</view>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>
